@@ -18,5 +18,6 @@ fi
 
 source .env.sh;
 source src/mount.sh;
+source src/hdd.sh;
 source src/slack.sh;
 

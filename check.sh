@@ -20,5 +20,9 @@ then
   fi
 fi
 
+##################################################
+# Used to check the free on path
+##################################################
+check_free_space ${source} ${MIN_HDD}
 
 
