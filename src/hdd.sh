@@ -15,7 +15,7 @@ check_free_space ()
         ##################################################
         if [ ${slack} -eq 1 ]
         then
-            slack_notification ${CHANNEL} ${USER} ${NOTIFICATON} ${TOKEN}
+            slack_notification "${CHANNEL}"  "${USER}" "${NOTIFICATON}" "${TOKEN}"
         fi
 
 		return 1;
