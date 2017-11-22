@@ -14,7 +14,7 @@ then
     ##################################################
     # Send slack notification
     ##################################################
-    slack_notification ${CHANNEL} ${USER} "Le dossier < ${source} > est indisponible" ${TOKEN}
+    slack_notification ${USER} "Le dossier < ${source} > est indisponible"
 
     exit 1
   fi
@@ -25,4 +25,4 @@ fi
 ##################################################
 check_free_space ${source} ${MIN_HDD}
 
-
+exit 0;
